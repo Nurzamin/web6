@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+      DOM and Form | Assignment 6
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js">
+    </script>
+    <script src="../js/main.js" defer>
+    </script>
+    <script src="../js/examples.js" defer>
+    </script>
+  </head>
+  <body>
+    <header class="top">
+      <h1>Assignment 6</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="selectors.html">Selectors</a>
+        <a href="effects.html">Effects</a>
+        <a href="dom.html">DOM & Form</a>
+        <a href="animations.html">Animations</a>
+        <a href="project.html">Mini project</a>
+      </nav>
+    </header>
+    <main class="wrap">
+      <div class="page-head">
+        <small>Part 3</small>
+        <h1>
+          DOM manipulation
+        </h1>
+      </div>
+      <section class="demo">
+        <h2>
+          Add and remove list items
+        </h2>
+        <ul id="list">
+          <li>
+            First item
+          </li>
+          <li>
+            Second item
+          </li>
+          <li>
+            Third item
+          </li>
+        </ul>
+        <button id="add">Append item</button>
+        <button id="prepend">Prepend item</button>
+        <button id="remove">Remove last item</button>
+      </section>
+      <section class="demo">
+        <h2>
+          Modify attributes
+        </h2>
+        <img id="attributeImage" class="photo" src="C:\Users\nnurz\OneDrive\Desktop\assignment6\images\angry.gif" alt="Uh">
+        <button id="changeImage">Change image src</button>
+        <p>
+          <a id="dynamicLink" href="https://www.youtube.com/" target="_blank">Example link</a>
+        </p>
+        <button id="changeLink">Change link href</button>
+      </section>
+      <section class="demo">
+        <h2>
+          Live form
+        </h2>
+        <label class="field">
+          Name<input id="name" type="text" placeholder="Your name">
+        </label>
+        <label class="field">
+          Email<input id="email" type="email" placeholder="you@example.com">
+        </label>
+        <div class="sample">
+          <strong>Preview</strong>
+          <p>
+            Name:<span id="liveName">—</span>
+          </p>
+          <p>
+            Email:<span id="liveEmail">—</span>
+          </p>
+        </div>
+      </section>
+      <a class="button" href="animations.html">Next &#8594;</a>
+      <footer>
+        Assignment 6
+      </footer>
+    </main>
+  </body>
+</html>
+
